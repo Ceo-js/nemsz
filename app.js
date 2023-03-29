@@ -68,9 +68,9 @@ sequelize
   .then((result) => {
     return User.findByPk(1);
   })
-  .then((user) => {
-    if (!user) {
-      User.create({ name: 'Leela Web Dev', email: 'leela@leela.com' });
+  .then( user => {
+    if( !user ) {
+      User.create( { name: "Ceo", email: "noah.kd@gmail.com" } );
     }
   })
   .catch((error) => {
