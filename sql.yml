@@ -1,0 +1,14 @@
+
+
+CREATE TABLE IF NOT EXISTS `cartItems` (
+  `id` BIGINT NOT NULL auto_increment ,
+  `quantity` INTEGER NOT NULL,
+  `createdAt` DATETIME NOT NULL,
+  `updatedAt` DATETIME NOT NULL,
+  `productId` BIGINT,
+  `cartId` BIGINT, UNIQUE `cartItems_cartId_productId_unique` (`productId`, `cartId`),
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`productId`) REFERENCES `products` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (`cartId`) REFERENCES `carts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
