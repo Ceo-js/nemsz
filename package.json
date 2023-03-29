@@ -1,30 +1,31 @@
 {
-  "name": "express-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "ceo": "nodemon app.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  },
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "bootstrap": "^5.2.0",
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "express-session": "^1.17.3",
-    "express-validator": "^6.15.0",
-    "morgan": "^1.10.0",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.21.6",
-    "sequelize-cli": "^6.6.0",
-    "uuid": "^9.0.0"
+    "name": "express-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon app.js",
+      "ceo": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "nodemon": "^2.0.19"
+    },
+    "dependencies": {
+      "body-parser": "^1.20.0",
+      "bootstrap": "^5.2.0",
+      "dotenv": "^16.0.3",
+      "ejs": "^3.1.8",
+      "express": "^4.18.1",
+      "express-session": "^1.17.3",
+      "express-validator": "^6.15.0",
+      "morgan": "^1.10.0",
+      "mysql2": "^2.3.3",
+      "sequelize": "^6.21.6",
+      "sequelize-cli": "^6.6.0",
+      "uuid": "^9.0.0"
+    }
   }
-}
+  
